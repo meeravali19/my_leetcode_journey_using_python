@@ -1,0 +1,15 @@
+class Solution(object):
+    def singleNumber(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        k=[]
+        
+        for i in range(len(nums)):
+            if nums[i] not in k:
+                k.append(nums[i])
+            else:
+                k.remove(nums[i])
+        return k[0]
+        
