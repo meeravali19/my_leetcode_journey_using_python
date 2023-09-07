@@ -1,0 +1,23 @@
+class Solution(object):
+    def isPalindrome(self, s):
+        """
+        :type s: str
+        :rtype: bool
+        """
+        k = 0
+        r = len(s) - 1
+
+        while k < r:
+            while k < r and not s[k].isalnum():
+                k += 1
+            while k < r and not s[r].isalnum():
+                r -= 1
+            if s[k].lower() != s[r].lower():
+                return False
+            k += 1
+            r -= 1
+
+        return True
+            
+           
+        
