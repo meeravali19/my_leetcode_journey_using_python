@@ -1,0 +1,38 @@
+class Solution(object):
+    def calPoints(self, operations):
+        """
+        :type operations: List[str]
+        :rtype: int
+        """
+        s=[]
+        k=0
+        x=0
+        f=["C","D","+"]
+        for i in range(len(operations)):
+            
+            if operations[i] not in f:
+                s.append(int(operations[i]))
+            
+            if operations[i]=='C':
+                if len(s)>0:
+                    
+                    s.pop()
+                
+            elif operations[i]=='D':
+                
+                c=2*int(s[len(s)-1])
+                s.append(c)
+             
+            elif operations[i]=='+':
+                
+                z=int(s[len(s)-2])+int(s[len(s)-1])
+                s.append(z)
+        for i in range(len(s)):
+            k+=s[i]
+        s.append(k)
+        return k
+
+                
+
+        
+        
