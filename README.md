@@ -26,8 +26,8 @@ LeetCode is a platform where one can practice coding and improve problem-solving
 
 I continually update this repository as I solve more problems. Below is a summary of my progress so far:
 
-- **Easy**: 15 problems solved
-- **Medium**: 10 problems solved
+- **Easy**: 55 problems solved
+- **Medium**: 20 problems solved
 - **Hard**: 5 problems solved
 
 ## Contributions
@@ -44,14 +44,14 @@ Here are some resources that have helped me along the way:
 
 - [LeetCode Explore](https://leetcode.com/explore/) - A great starting point for practicing different types of problems.
 - [GeeksforGeeks](https://www.geeksforgeeks.org/) - Comprehensive tutorials and explanations on algorithms and data structures.
-- [HackerRank](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript) - Practice problems and contests.
+
 
 ## Contact
 
 If you have any questions or suggestions, feel free to reach out:
 
 - GitHub: [meeravali19](https://github.com/meeravali19)
-- Email: meeravali19@example.com
+- Email: meeravalidudekula19@gmail.com
 
 ---
 
